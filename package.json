@@ -1,6 +1,6 @@
 {
-  "name": "science-lab",
-  "version": "1.0.1",
+  "name": "simulab-playground",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "build": "webpack --config webpack.production.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Viet Hung Nguyen",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.2.6",
     "clean-webpack-plugin": "^3.0.0",
