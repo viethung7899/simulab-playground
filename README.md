@@ -1,2 +1,3 @@
-# webpack-starter
-A base project using Webpack bundler
+# Simulab playground
+
+A boilerplate project using TypeScript, PIXIjs, and Tailwindcss
