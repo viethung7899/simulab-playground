@@ -1,4 +1,5 @@
 import { Application } from '@pixi/app';
+import { Graphics } from 'pixi.js';
 import { initController } from './components/Controller';
 import './style.scss';
 
@@ -17,6 +18,13 @@ const app = new Application({
   autoDensity: true,
   backgroundColor: 0x333333,
 });
+
+// Sample shape
+const shape = new Graphics();
+shape.beginFill(0x00ffff).drawCircle(0, 0, 50).endFill();
+shape.x = 400;
+shape.y = 400;
+app.stage.addChild(shape);
 
 window.addEventListener('resize', () => {
   // Resize the canvas
