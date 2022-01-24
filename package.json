@@ -35,6 +35,6 @@
     "pixi.js": "^6.1.2",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.0.0",
-    "tailwindcss": "^2.2.7"
+    "tailwindcss": "^3.0.16"
   }
 }
